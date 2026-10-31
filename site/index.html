@@ -45,57 +45,122 @@
   
   <main id="main" tabindex="-1">
     <section class="hero">
-      <div class="container hero-inner">
-        <p class="eyebrow">Maximux Studio</p>
-        <h1>Smart Apps.<br><span class="accent">Simple Experiences.</span></h1>
-        <p class="lead">We design and build focused mobile and web applications that do one job well, with clear interfaces that stay out of your way.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="apps/">Explore our apps</a>
-          <a class="btn btn-secondary" href="support/">Get support</a>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent app studio</p>
+          <h1>Smart Apps.<br><span class="accent">Simple Experiences.</span></h1>
+          <p class="lead">Maximux Studio designs and builds focused mobile and web applications that do one job well, with clear interfaces that stay out of your way.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="apps/">Explore our apps</a>
+            <a class="btn btn-secondary" href="support/">Get support</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <figure class="device">
+            <div class="device-frame" aria-hidden="true">
+              <div class="device-screen">
+                <div class="ds-notch"></div>
+                <div class="ds-header">
+                  <span class="ds-icon">R</span>
+                  <span class="ds-title">RBT Quest</span>
+                </div>
+                <div class="ds-card ds-card-accent">
+                  <span class="sk sk-light w45"></span>
+                  <span class="sk sk-light w80"></span>
+                  <span class="ds-progress"><span></span></span>
+                </div>
+                <div class="ds-card">
+                  <span class="sk w90"></span>
+                  <span class="sk w70"></span>
+                  <span class="ds-option"><span class="ds-radio"></span><span class="sk w60"></span></span>
+                  <span class="ds-option is-selected"><span class="ds-radio"></span><span class="sk w70"></span></span>
+                  <span class="ds-option"><span class="ds-radio"></span><span class="sk w50"></span></span>
+                </div>
+                <div class="ds-tiles"><span class="ds-tile"><span class="sk w60"></span><span class="sk w80"></span></span><span class="ds-tile"><span class="sk w50"></span><span class="sk w70"></span></span></div>
+                <div class="ds-tabbar"><span class="is-active"></span><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <figcaption class="device-caption">Illustrative preview, not an actual app screenshot.</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" aria-labelledby="approach-heading">
+    <section class="featured" aria-labelledby="featured-heading">
       <div class="container">
-        <h2 id="approach-heading" class="section-title">How we build</h2>
-        <div class="grid grid-3">
-          <article class="card">
+        <div class="featured-panel">
+          <div class="featured-intro">
+            <p class="eyebrow eyebrow-light">Featured app</p>
+            <div class="featured-title">
+              <svg class="app-icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="15" fill="#1D4ED8"/><path d="M18 46V18h11.5c6 0 9.5 3.2 9.5 8.3 0 3.6-1.8 6.2-4.9 7.4L40.5 46h-6.6l-5.6-11.3H24V46zm6-16.4h5.1c2.6 0 4-1.2 4-3.3s-1.4-3.3-4-3.3H24z" fill="#fff"/><circle cx="46" cy="44" r="4" fill="#BFDBFE"/></svg>
+              <div>
+                <h2 id="featured-heading">RBT Quest</h2>
+                <span class="status status-light">Coming soon</span>
+              </div>
+            </div>
+            <p class="featured-lead">An independent study and exam-preparation app for aspiring Registered Behavior Technicians.</p>
+            <a class="btn btn-light" href="apps/#rbt-quest">Learn more about RBT Quest</a>
+          </div>
+          <ul class="featured-points">
+            <li>
+              <h3>Who it's for</h3>
+              <p>People preparing to become Registered Behavior Technicians.</p>
+            </li>
+            <li>
+              <h3>What it helps with</h3>
+              <p>Reviewing core concepts and preparing for the RBT exam.</p>
+            </li>
+            <li>
+              <h3>How you use it</h3>
+              <p>On your phone, at your own pace.</p>
+            </li>
+          </ul>
+          <p class="featured-note">RBT Quest is an independent educational resource and is not affiliated with or endorsed by the Behavior Analyst Certification Board (BACB). <a href="apps/#rbt-quest">Full disclaimer</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section principles" aria-labelledby="approach-heading">
+      <div class="container principles-grid">
+        <div class="principles-intro">
+          <p class="eyebrow">Our approach</p>
+          <h2 id="approach-heading">How we build</h2>
+          <p>Small studio, narrow focus. Every app we ship follows the same three rules.</p>
+        </div>
+        <ol class="principles-list">
+          <li>
+            <span class="principle-num" aria-hidden="true">01</span>
             <h3>Purpose-built</h3>
             <p>Each app starts with one specific problem and a clear audience, and grows only where it helps that audience.</p>
-          </article>
-          <article class="card">
+          </li>
+          <li>
+            <span class="principle-num" aria-hidden="true">02</span>
             <h3>Mobile first</h3>
             <p>We design for the phone in your hand first, then make sure the experience holds up on every screen size.</p>
-          </article>
-          <article class="card">
+          </li>
+          <li>
+            <span class="principle-num" aria-hidden="true">03</span>
             <h3>Simple by default</h3>
             <p>Plain language, predictable layouts, and fewer steps. If a feature needs a manual, we rethink it.</p>
-          </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-alt about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">An independent studio</h2>
+          <p>Maximux Studio is a small, independent software and mobile application development studio, operated by Asereje360 LLC.</p>
+          <p>Questions about one of our apps? Write to <a href="mailto:support@maximuxstudio.com">support@maximuxstudio.com</a>.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="featured-heading">
-      <div class="container">
-        <h2 id="featured-heading" class="section-title">Featured app</h2>
-        <article class="feature">
-          <svg class="app-icon" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="15" fill="#1D4ED8"/><path d="M18 46V18h11.5c6 0 9.5 3.2 9.5 8.3 0 3.6-1.8 6.2-4.9 7.4L40.5 46h-6.6l-5.6-11.3H24V46zm6-16.4h5.1c2.6 0 4-1.2 4-3.3s-1.4-3.3-4-3.3H24z" fill="#fff"/><circle cx="46" cy="44" r="4" fill="#BFDBFE"/></svg>
-          <div class="feature-body">
-            <h3>RBT Quest</h3>
-            <p class="meta">Education &middot; Exam preparation</p>
-            <p>An independent study and exam-preparation app for aspiring Registered Behavior Technicians.</p>
-            <a class="link-arrow" href="apps/#rbt-quest">Learn more about RBT Quest</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section-alt" aria-labelledby="about-heading">
-      <div class="container narrow">
-        <h2 id="about-heading" class="section-title">About the studio</h2>
-        <p>Maximux Studio is a small, independent software and mobile application development studio. Maximux Studio is a brand operated by Asereje360 LLC.</p>
-        <p>Questions about one of our apps? Write to <a href="mailto:support@maximuxstudio.com">support@maximuxstudio.com</a>.</p>
+        <dl class="facts">
+          <div><dt>Brand</dt><dd>Maximux Studio</dd></div>
+          <div><dt>Operated by</dt><dd>Asereje360 LLC</dd></div>
+          <div><dt>Focus</dt><dd>Mobile and web applications</dd></div>
+          <div><dt>Support</dt><dd><a href="mailto:support@maximuxstudio.com">support@maximuxstudio.com</a></dd></div>
+        </dl>
       </div>
     </section>
   </main>
