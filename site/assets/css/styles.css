@@ -407,3 +407,4 @@ main:focus { outline: none; }
   .featured-panel h2, .featured-panel h3, .featured-points p, .featured-lead, .contact-email a { color: inherit; }
   a { color: inherit; }
 }
+.footer-bottom p + .footer-operator { margin-top: .3rem; font-size: .82rem; }
